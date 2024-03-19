@@ -1,0 +1,16 @@
+footer {
+    background: #4F3727;
+    color: white;
+    padding: 5px;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+    padding-bottom: 0px;
+    min-height: 99px;
+  }
+  
+  footer p {
+    margin: 5px 0;
+    text-align: center;
+  }
+  

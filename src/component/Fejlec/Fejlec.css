@@ -1,0 +1,47 @@
+/* Fejlec.css */
+
+/* Styles for the Navbar */
+.bg-body-tertiary {
+  background-color: #f8f9fa;
+}
+
+/* Styles for the open state of the Navbar */
+.open {
+  transform: translateX(0);
+}
+
+.kosaricon{
+  height: 20px;
+  width: 20px;
+
+}
+
+/* Styles for the Navbar Brand */
+.navbar-brand h1 {
+  color: #343a40;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Styles for the Navbar links */
+.nav-link {
+  color: #343a40;
+  font-size: 16px;
+}
+
+/* Styles for the Navbar links on hover */
+.nav-link:hover {
+  color: #007bff;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  /* Styles for smaller screens */
+  .navbar-brand h1 {
+    font-size: 20px;
+  }
+  
+  .nav-link {
+    font-size: 14px;
+  }
+}
